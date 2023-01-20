@@ -14,18 +14,18 @@ int fractional_kmp(vector<pair<int,int>>v,int k)
         {
             curr_cap-=weight;
             res+=profit;
-            cout<<res<<" ";
+            //cout<<res<<" ";
 
         }
         else
         {
             // cout<<res;
             res+=((profit*curr_cap)/weight);
-            cout<<res<<" ";
+            //cout<<res<<" ";
             break;
         }
     }
-    cout<<endl;
+    //cout<<endl;
     return res;
 }
 
